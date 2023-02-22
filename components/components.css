@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+
+
+body {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+/* font-family: 'Bungee Shade', cursive;
+ font-family: 'Rubik Gemstones', cursive;
+
+ 
+*/
+
+
+h1 {
+  
+    font-family: 'Bungee Shade', cursive;
+}
+
+
+p {
+
+    font-family: 'Prompt', sans-serif;
+  
+}
+
+.header__logo {
+    height: 10.3vh;
+    width: 100vw;
+    background-color: #007C89;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    max-width: 80px;
+    max-height: 100px;
+    margin-bottom: 0.3rem;
+    margin-top: 0.4rem;
+}
+    
+.header__input {
+    height: 7vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 4rem; */
+}
+.navbar__input {
+
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__input input {
+    margin: 1.6rem;
+}
+#menu-icon {
+
+margin-right: 2rem;
+}
+
+#price {
+
+font-size: large;
+font-weight: 900;
+
+}
+
+#room{
+font-family: 'Bungee Shade', cursive;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+
+.navbar__input--input {
+background-color: #FFFFFF;
+text-align: center; 
+padding: 0.3rem 0.5rem;
+border-radius: 3px;
+border: 0;
+margin: 1rem auto;
+font-size: 1rem;
+}
+
+.card__button--search {
+background-color: #007C89;
+border-radius: 15px;
+color: black;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+padding: 7px 27px;   
+border-radius: 15px;  
+font-family: 'Bungee Shade', cursive;  
+}
+
+.card {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-color: #1E1E1E;
+border-radius: 10px;
+height: 12rem;
+color: white;
+}
+
+.card__text {
+color: white;
+}
+
+.card__photo {
+max-width: 300px;
+max-height: 300px;
+margin-right: 1.5rem;
+margin-left: 0.5rem;
+}
+
+.card__button--order {
+
+background-color: #007C89;
+border-radius: 4px;
+color: black;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+padding: 13px 27px;
+font-family: 'Bungee Shade', cursive;
+box-shadow: #FFFFFF;
+margin: 6rem 1rem 0 0;      
+}
+
+.info--card {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+background-color: #1E1E1E;
+border-radius: 1rem;
+border: 2px solid black;
+color: #FFFFFF;
+height: 15rem;
+padding-left: 0.6rem;
+
+}
+
+.info--card__heading {
+font-family: 'Bungee Shade', cursive;
+font-size: 1.3rem;
+color: white;
+}
+
+
+footer {
+height: 13rem;
+width: 100vw;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: black;
+color: white;
+font-family: 'Prompt', sans-serif;
+    
+}
+
+.social-icon {
+height: 1.8rem;
+}
+    
+
+

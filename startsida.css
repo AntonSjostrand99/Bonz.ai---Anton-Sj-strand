@@ -1,0 +1,65 @@
+
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #CAC8BC;
+}
+
+html {
+scroll-behavior: smooth;
+
+}
+
+.section__img {
+
+width: 100vw;
+height: 82.7vh;
+
+}
+
+.startsite__img {
+
+width: 100%;
+height: 100%;
+    
+}
+
+
+.startsite__img--text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Bungee Shade', cursive;
+    padding: 0 25px 0 25px;
+    background-color: rgba(255, 255, 255, .50);
+
+
+}
+
+.startsite__img--text h1 {
+   
+font-size: 34px;
+}
+
+
+
+
+
+
+.card__section {
+
+display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: auto;
+gap: 1rem;
+margin-bottom: 3rem;
+
+}
+
+.info--card {
+
+    grid-column: auto / span 4;
+ 
+} 

@@ -1,0 +1,28 @@
+body {
+
+ margin: 0;
+ padding: 0;
+ background-color: #CAC8BC;
+ box-sizing: border-box;
+
+
+}
+
+
+.card__section {
+
+
+display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: auto;
+gap: 1rem;
+margin-top: 1.2rem;
+margin-bottom: 3rem;
+
+}
+
+.card {
+
+    grid-column: 1 /  13;
+ 
+}
