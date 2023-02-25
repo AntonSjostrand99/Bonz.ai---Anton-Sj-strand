@@ -46,9 +46,9 @@ p {
 
 
 .logo {
-    /* max-width: 80px;
-    max-height: 100px; */
-    height: 8.3%;
+    max-width: 80px;
+    max-height: 100px; 
+ 
     margin-bottom: 2rem;
     margin-top: 0.4rem;
 }
